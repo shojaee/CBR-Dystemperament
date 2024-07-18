@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#"
+     xml:base="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/Diseases"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_دستگاه_گوارش -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_دستگاه_گوارش">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_سر -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_سر">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_شش_و_سینه -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_شش_و_سینه">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_غدد -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_غدد">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_قلب -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_قلب">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_مری -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_مری">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_دستگاه_گوارش"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_معده -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_معده">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_دستگاه_گوارش"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_مقعد -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_مقعد">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_پشت_دست_پا -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_پشت_دست_پا">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_پوستی -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_پوستی">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_کبد -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_کبد">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_دستگاه_گوارش"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_کیسه_صفرا_و_طحال -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری_کیسه_صفرا_و_طحال">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#بیماری"/>
+    </owl:Class>
+    
+
+
+
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <بيماري_مري rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#آشالازي"/>
+	<بيماري_غدد rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#کم_کاري_تيروئيد"/>
+    <بيماري_کبد rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#کبد_چرب"/>
+    <بيماري_سر rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#خيالات_فاسد"/>
+    <بيماري_پشت_دست_پا rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#درد_مفاصل"/>
+    <بيماري_معده rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#رفلاکس"/>
+    <بيماري_سر rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#سردرد"/>
+    <بيماري_شش_و_سينه rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#سرفه"/>
+    <بيماري_سر rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#سرگيجه"/>
+    <بيماري_کيسه_صفرا_و_طحال rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#سنگ_کيسه_صفرا"/>
+    <بيماري_سر rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#نزله"/>
+    <بيماري_مقعد rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#هموروئيد"/>
+    <بيماري_پوستي rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#ويتيليگو"/>
+    <بيماري_غدد rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#پرکاري_تيروئيد"/>
+    <بيماري_معده rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#پوليپ_معده"/>
+    <بيماري_شش_و_سينه rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#تنگي_نفس"/>
+    <بيماري_پوستي rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#خارش_بدن"/>
+    <بيماري_قلب rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#خفقان"/>	
+    <بيماري_پوستي rdf:about="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases#آلرژي"/>
+	
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

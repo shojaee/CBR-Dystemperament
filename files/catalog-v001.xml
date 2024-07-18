@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1576566087888" name="http://gaia.fdi.ucm.es/ontologies/travel-destinations.owl" uri="travel-destinations.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1576566087888" name="http://www.semanticweb.org/hsh/ontologies/2019/10/diseases" uri="diseases.owl"/>
+    </group>
+</catalog>
